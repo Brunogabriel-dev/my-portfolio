@@ -13,7 +13,7 @@ const HeroSection = () => {
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure fugit numquam incidunt, repudiandae quis quas dignissimos.
     </p>
     </div>
-    <div className="col-span-5 place-self-center">
+    <div className="col-span-5 place-self-center mt-4 lg:mt-0">
       <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ">
       <Image
         src="/images/image.png"
