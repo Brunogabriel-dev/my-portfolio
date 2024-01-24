@@ -13,7 +13,9 @@ const HeroSection = () => {
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure fugit numquam incidunt, repudiandae quis quas dignissimos.
     </p>
     <div>
-      <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black">Hire Me</button>
+      <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black">
+        Hire Me
+        </button>
       <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">Download CV</button>
     </div>
     </div>
