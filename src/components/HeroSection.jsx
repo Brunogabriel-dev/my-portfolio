@@ -10,20 +10,20 @@ const HeroSection = () => {
       Hello, Dev
       </h1>
     <p className="text-[#ADB7BE] text-lg lg:text-xl">
-     
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure fugit numquam incidunt, repudiandae quis quas dignissimos.
     </p>
     </div>
-    <div className="col-span-5">
+    <div className="col-span-5 place-self-center">
+      <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ">
       <Image
-      src="/images/image.png"
-      alt="hero image"
-      width={300}
-      height={300}
+        src="/images/image.png"
+        alt="hero image"
+        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        width={300}
+        height={300}
       />
-
-
-    </div>
+       </div>
+     </div>
     </div>
     </section>
   );
